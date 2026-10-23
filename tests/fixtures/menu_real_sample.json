@@ -1,0 +1,81 @@
+{
+  "_fixture_note": "真实 MCP query-meals 返回摘录，用于离线测试。价格单位：元（currentPrice 为官方现价）。",
+  "_source": "mcd-mcp query-meals",
+  "_store": {
+    "storeCode": "3330052",
+    "storeName": "麦当劳杭州西湖银泰餐厅",
+    "address": "延安路98号"
+  },
+  "_query": {
+    "storeCode": "3330052",
+    "orderType": 1,
+    "beType": 1
+  },
+  "_captured_at": "2026-10-21 19:19:42",
+  "_traceId": "3bc4b2cbe9091b75879c5ac3d125b582",
+  "_is_real_data": true,
+  "categories": [
+    {
+      "name": "巨无霸\n牛鱼肉堡",
+      "meals": [
+        { "code": "1100", "tags": ["单品", "100%纯牛肉"] },
+        { "code": "9900005466", "tags": ["套餐", "100%纯牛肉"] },
+        { "code": "1600", "tags": ["单品", "麦香鱼系列"] }
+      ]
+    },
+    {
+      "name": "鸡肉汉堡\n/卷",
+      "meals": [
+        { "code": "1440", "tags": ["单品", "人气经典", "外酥里嫩"] },
+        { "code": "1406", "tags": ["单品", "板烧滋滋", "多汁惹味"] },
+        { "code": "9900005462", "tags": ["套餐", "新升级", "更多汁"] }
+      ]
+    },
+    {
+      "name": "500\n大卡套餐",
+      "meals": [
+        { "code": "9900011126", "tags": [] },
+        { "code": "9900011123", "tags": [] }
+      ]
+    },
+    {
+      "name": "小食甜品\n/其他",
+      "meals": [
+        { "code": "4810", "tags": ["小食"] },
+        { "code": "1401", "tags": ["单品", "人气"] },
+        { "code": "9900008752", "tags": ["派", "第二份优惠"] }
+      ]
+    },
+    {
+      "name": "麦咖啡™",
+      "meals": [
+        { "code": "520689", "tags": ["热饮", "鲜萃咖啡"] },
+        { "code": "507411", "tags": ["限定特惠"] }
+      ]
+    },
+    {
+      "name": "饮品",
+      "meals": [
+        { "code": "9900008751", "tags": ["冷饮"] },
+        { "code": "3505", "tags": ["热饮"] }
+      ]
+    }
+  ],
+  "meals": {
+    "1100": { "name": "巨无霸", "currentPrice": "26.5", "originalPrice": "26.5", "canWithOrder": false },
+    "9900005466": { "name": "巨无霸三件套", "currentPrice": "37.5", "originalPrice": "51", "canWithOrder": false },
+    "1600": { "name": "麦香鱼", "currentPrice": "22", "originalPrice": "22", "canWithOrder": false },
+    "1440": { "name": "麦辣鸡腿汉堡", "currentPrice": "22.5", "originalPrice": "22.5", "canWithOrder": false },
+    "1406": { "name": "板烧鸡腿堡", "currentPrice": "23.5", "originalPrice": "23.5", "canWithOrder": false },
+    "9900005462": { "name": "板烧鸡腿堡三件套", "currentPrice": "34.5", "originalPrice": "48", "canWithOrder": false },
+    "9900011126": { "name": "酥脆无双套餐", "currentPrice": "20", "originalPrice": "20", "canWithOrder": false },
+    "9900011123": { "name": "“辣”么快乐套餐", "currentPrice": "24", "originalPrice": "36", "canWithOrder": false },
+    "4810": { "name": "薯条", "currentPrice": "14.5", "originalPrice": "14.5", "canWithOrder": false },
+    "1401": { "name": "麦乐鸡", "currentPrice": "14", "originalPrice": "14", "canWithOrder": false },
+    "9900008752": { "name": "派", "currentPrice": "8.5", "originalPrice": "8.5", "canWithOrder": false },
+    "520689": { "name": "鲜萃咖啡", "currentPrice": "9.5", "originalPrice": "9.5", "canWithOrder": false },
+    "507411": { "name": "麦咖啡™美式", "currentPrice": "11.9", "originalPrice": "19", "discountType": "促销优惠", "canWithOrder": false },
+    "9900008751": { "name": "可乐", "currentPrice": "9.5", "originalPrice": "9.5", "canWithOrder": false },
+    "3505": { "name": "锡兰红茶", "currentPrice": "10.5", "originalPrice": "10.5", "canWithOrder": false }
+  }
+}

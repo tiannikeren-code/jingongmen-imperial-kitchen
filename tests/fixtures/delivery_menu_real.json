@@ -1,0 +1,61 @@
+{
+  "_fixture_note": "真实 MCP query-meals 返回（麦乐送外送 beType=2）。为控制体积，categories 与 meals 均为**摘录**，仅保留测试中用到的餐品；未摘录的部分不代表不存在。",
+  "_source": "mcd-mcp query-meals",
+  "_query": {
+    "storeCode": "3330329",
+    "beCode": "333032902",
+    "orderType": 2,
+    "beType": 2
+  },
+  "_store": {
+    "storeCode": "3330329",
+    "beCode": "333032902",
+    "storeName": "麦当劳杭州普大福地餐厅"
+  },
+  "_captured_at": "2026-10-22 10:54:47",
+  "_traceId": "bece996d81819ee248bbc40719c5c1fe",
+  "_is_real_data": true,
+  "_price_note": "外送价格与到店自取不同：巨无霸到店 26.5 / 外送 28.5；中薯条到店 14.5 / 外送 15.5。此差异为真实查询结果。",
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 10:54:47",
+  "traceId": "bece996d81819ee248bbc40719c5c1fe",
+  "data": {
+    "categories": [
+      {
+        "name": "巨无霸\n牛鱼肉堡",
+        "meals": [
+          { "code": "901100", "tags": ["单品", "100%纯牛肉"] },
+          { "code": "901000", "tags": ["单品", "100%纯牛肉"] },
+          { "code": "9900003001", "tags": ["三件套", "外送价格"] }
+        ]
+      },
+      {
+        "name": "小食甜品\n/其他",
+        "meals": [
+          { "code": "501205", "tags": ["小食"] },
+          { "code": "904106", "tags": ["派"] },
+          { "code": "902372", "tags": ["冰淇淋"] }
+        ]
+      },
+      {
+        "name": "麦咖啡™",
+        "meals": [
+          { "code": "507368", "tags": ["咖啡"] },
+          { "code": "507328", "tags": ["咖啡", "更奶更浓"] }
+        ]
+      }
+    ],
+    "meals": {
+      "901100": { "name": "巨无霸", "currentPrice": "28.5", "originalPrice": "28.5", "canWithOrder": false },
+      "901000": { "name": "汉堡包", "currentPrice": "15", "originalPrice": "15", "canWithOrder": false },
+      "9900003001": { "name": "巨无霸套餐", "currentPrice": "44", "originalPrice": "54", "canWithOrder": false },
+      "501205": { "name": "薯条", "currentPrice": "15.5", "originalPrice": "15.5", "canWithOrder": false },
+      "904106": { "name": "香芋派", "currentPrice": "9", "originalPrice": "9", "canWithOrder": false },
+      "902372": { "name": "奥利奥麦旋风", "currentPrice": "15.5", "originalPrice": "15.5", "canWithOrder": false },
+      "507368": { "name": "麦咖啡™美式", "currentPrice": "11.9", "originalPrice": "19", "discountType": "促销优惠", "canWithOrder": false },
+      "507328": { "name": "麦咖啡™奶铁", "currentPrice": "13.9", "originalPrice": "21", "discountType": "促销优惠", "canWithOrder": false }
+    }
+  }
+}

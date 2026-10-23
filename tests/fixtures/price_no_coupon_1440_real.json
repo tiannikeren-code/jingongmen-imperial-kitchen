@@ -1,0 +1,29 @@
+{
+  "_captured": "2026-10-22 11:50:36 实跑 calculate-price（beType=2 麦乐送，**不带券**）。",
+  "_traceId": "6abfddfd05a8df6dd3e39f06150077ec",
+  "_query": {
+    "storeCode": "3330329",
+    "beCode": "333032902",
+    "orderType": 2,
+    "beType": 2,
+    "items": [{"productCode": "1440", "quantity": 1}]
+  },
+  "_anomaly": "⚠️ 重要实测异常：同一商品 1440 **不带券**时，productPrice=0、productList 为空，只剩配送费 600 分；而带券时能正常算出 1190 分。对照实验（901100 巨无霸不带券）返回正常 2850 分，故排除核价接口本身故障。",
+  "_hypothesis_not_confirmed": "臣推测该商品在外送渠道可能为「仅券价可售」，但官方未给出说明，**臣不作断言**，只如实呈现这一差异。",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 11:50:36",
+  "traceId": "6abfddfd05a8df6dd3e39f06150077ec",
+  "data": {
+    "productOriginalPrice": 0,
+    "productPrice": 0,
+    "deliveryOriginalPrice": 600,
+    "deliveryPrice": 600,
+    "originalPrice": 600,
+    "discount": 0,
+    "price": 600,
+    "productList": []
+  }
+}

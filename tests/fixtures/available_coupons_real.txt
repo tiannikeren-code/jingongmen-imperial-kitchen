@@ -1,0 +1,13 @@
+### 麦麦省优惠券列表：
+- 优惠券标题：11.9元麦辣鸡腿堡 \
+  状态：可领取 \
+  优惠券图片：\
+    <img src="https://img.mcd.cn/cms/images/289fd13e1138b66b.png" alt="11.9元麦辣鸡腿堡" height="auto" width="300">
+- 优惠券标题：19.9元王牌炸鸡任选2 \
+  状态：可领取 \
+  优惠券图片：\
+    <img src="https://img.mcd.cn/cms/images/edc67c7e8284bc71.png" alt="19.9元王牌炸鸡任选2" height="auto" width="300">
+- 优惠券标题：免费脆薯饼 \
+  状态：可领取 \
+  优惠券图片：\
+    <img src="https://img.mcd.cn/cms/images/858839306b7cca66.png" alt="免费脆薯饼" height="auto" width="300">

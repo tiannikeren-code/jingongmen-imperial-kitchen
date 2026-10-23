@@ -1,0 +1,16 @@
+{
+  "_note": "外送场景缺少 beCode 时的真实报错留痕。用 beType=2 + orderType=2 + storeCode=3330052 调用 query-meals，官方直接拒绝。这条错误是「外送必传 beCode」这一约束的真实证据。",
+  "_tool": "query-meals",
+  "_params": {
+    "storeCode": "3330052",
+    "orderType": 2,
+    "beType": 2
+  },
+  "_called_at": "2026-10-22 10:07:28",
+  "_trace_id": "244496c05d3473af51b72779e633fe46",
+  "success": false,
+  "code": 600048,
+  "message": "外送场景下，beType=2/5/6时必传beCode",
+  "datetime": "2026-10-22 10:07:28",
+  "traceId": "244496c05d3473af51b72779e633fe46"
+}

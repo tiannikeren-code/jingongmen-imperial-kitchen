@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地环境 / 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# 密钥与凭据 —— 绝不允许提交
+.env
+*.token
+*mcp.json
+!mcp-config.example.json
+
+# 本地工作台状态（含会话记忆，里面有真实手机号/地址，绝不外传）
+.workbuddy/
+
+# 日志
+*.log
+
+# 打包产物（迁移包由 tools/package_skill.py 现打，不进仓库）
+*.zip
+.pkg-stage/

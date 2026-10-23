@@ -1,0 +1,33 @@
+{
+  "_fixture_note": "真实 MCP calculate-price 返回摘录，用于离线测试。金额单位：分。",
+  "_source": "mcd-mcp calculate-price",
+  "_query": {
+    "storeCode": "3330052",
+    "orderType": 1,
+    "beType": 1,
+    "items": [
+      { "productCode": "1100", "quantity": 1 },
+      { "productCode": "4810", "quantity": 1 }
+    ]
+  },
+  "_captured_at": "2026-10-21 19:20:35",
+  "_traceId": "e0ab376a79435f6d84c9947c469a1569",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "data": {
+    "productOriginalPrice": 4100,
+    "productPrice": 4100,
+    "originalPrice": 4100,
+    "discount": 0,
+    "price": 4100,
+    "productList": [
+      { "productCode": "1100", "productName": "巨无霸", "quantity": 1, "originalSubtotal": 2650, "subtotal": 2650 },
+      { "productCode": "4810", "productName": "中薯条", "quantity": 1, "originalSubtotal": 1450, "subtotal": 1450 }
+    ],
+    "takeWayList": [
+      { "code": "eat-in", "title": "堂食", "subtitle": "店内用餐" },
+      { "code": "take-in-store", "title": "外带", "subtitle": "店内自提" }
+    ]
+  }
+}

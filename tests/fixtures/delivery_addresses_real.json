@@ -1,0 +1,14 @@
+{
+  "_note": "mcp__mcd-mcp__delivery-query-addresses 真实返回（脱敏留痕）。账户下暂无配送地址，返回空列表是真实结果，不是构造数据。",
+  "_tool": "delivery-query-addresses",
+  "_called_at": "2026-10-22 10:06:48",
+  "_trace_id": "d897f2c0b4076ea56cf53f0683cc7670",
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 10:06:48",
+  "traceId": "d897f2c0b4076ea56cf53f0683cc7670",
+  "data": {
+    "addresses": []
+  }
+}

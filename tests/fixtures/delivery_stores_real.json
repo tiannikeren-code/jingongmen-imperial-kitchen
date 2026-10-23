@@ -1,0 +1,42 @@
+{
+  "_fixture_note": "真实 MCP delivery-query-stores 返回（beType=2）。这是本项目首次成功取得 beCode——外送菜单与核价的必需参数。手机号在官方返回中已脱敏。",
+  "_source": "mcd-mcp delivery-query-stores",
+  "_query": { "beType": 2, "addressId": "10363659****（真实值已脱敏）" },
+  "_captured_at": "2026-10-22 10:54:36",
+  "_traceId": "02c8a4614b5ec22bac84d5270b025d5f",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 10:54:36",
+  "traceId": "02c8a4614b5ec22bac84d5270b025d5f",
+  "data": [
+    {
+      "storeCode": "3330329",
+      "beCode": "333032902",
+      "storeName": "麦当劳杭州普大福地餐厅",
+      "reservation": true,
+      "businessStatus": true,
+      "businessStartTime": "07:00",
+      "businessEndTime": "22:00"
+    },
+    {
+      "storeCode": "3330498",
+      "beCode": "333049802",
+      "storeName": "麦当劳杭州上城区东方电子商务园餐厅",
+      "reservation": true,
+      "businessStatus": true,
+      "businessStartTime": "07:00",
+      "businessEndTime": "21:00"
+    },
+    {
+      "storeCode": "3330321",
+      "beCode": "333032102",
+      "storeName": "麦当劳杭州七章公园餐厅",
+      "reservation": true,
+      "businessStatus": true,
+      "businessStartTime": "07:00",
+      "businessEndTime": "22:00"
+    }
+  ]
+}

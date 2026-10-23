@@ -1,0 +1,34 @@
+{
+  "_fixture_note": "真实 MCP query-meal-detail 返回（可口可乐中杯 903050，麦乐送外送）。2026-10-22 实跑，用于验证「必选口味」：官方 modification 只有冰量四选一，minValues=1 表示必须选一项，默认「标准」。本次实跑还查证了两件事：① 这杯可乐的官方数据里【没有无糖选项】；② 「无糖可口可乐」是另一个独立商品（code 903071，¥11），不是本杯的可改选项。",
+  "_source": "mcp__mcd-mcp__query-meal-detail",
+  "_query": {"storeCode": "3330329", "beCode": "333032902", "orderType": 2, "beType": 2, "code": "903050"},
+  "_captured_at": "2026-10-22 14:32:18",
+  "_traceId": "7fdbf22a25ca86905aa957ee08894ba5",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 14:32:18",
+  "traceId": "7fdbf22a25ca86905aa957ee08894ba5",
+  "data": {
+    "code": "903050",
+    "name": "可口可乐(中杯)",
+    "rounds": [],
+    "image": "https://menu-img.mcd.cn/pcm/prod/menu/ProductPool/product/MS_903050_600.png",
+    "supportModify": true,
+    "modification": {
+      "items": [
+        {
+          "maxValues": 1,
+          "minValues": 1,
+          "values": [
+            {"code": "200002", "price": 0, "name": "标准", "maxQuantity": 1, "minQuantity": 0, "selectedQuantity": 1, "selectedKey": "0-1"},
+            {"code": "200002", "price": 0, "name": "去冰", "maxQuantity": 1, "minQuantity": 0, "selectedQuantity": 0, "selectedKey": "0-0"},
+            {"code": "200002", "price": 0, "name": "多冰", "maxQuantity": 1, "minQuantity": 0, "selectedQuantity": 0, "selectedKey": "0-2"},
+            {"code": "200002", "price": 0, "name": "少冰", "maxQuantity": 1, "minQuantity": 0, "selectedQuantity": 0, "selectedKey": "1-1"}
+          ]
+        }
+      ]
+    }
+  }
+}

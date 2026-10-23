@@ -1,0 +1,83 @@
+{
+  "scene": {
+    "key": "delivery",
+    "name": "麦乐送外送",
+    "palace": "驿站传膳",
+    "beType": 2,
+    "orderType": 2,
+    "needs_be_code": true,
+    "implemented": true,
+    "entry_tool": "delivery-query-addresses",
+    "chain": [
+      "delivery-query-addresses（取 addressId）",
+      "delivery-query-stores（beType=2，取 storeCode + beCode）",
+      "query-meals（beType=2, orderType=2, 必传 beCode）",
+      "query-store-coupons（beType=2, orderType=2）",
+      "calculate-price（beType=2, orderType=2）"
+    ]
+  },
+  "status": "ready",
+  "next_tool": "query-meals",
+  "next_params": {
+    "beType": 2,
+    "orderType": 2,
+    "storeCode": "3330329",
+    "beCode": "333032902"
+  },
+  "blockers": [],
+  "unverified": [
+    "配送费与打包费：以官方 `calculate-price` 返回为准，臣不在核价前预估。",
+    "外送餐品价格与到店自取不同（已实跑验证：同组合外送更高），一切以官方核价结果为准。"
+  ],
+  "notes": [
+    "起送价：麦乐送外送**不设起送门槛**（陛下明示；官方 calculate-price 返回中亦无该字段），臣不作任何起送价提示。"
+  ],
+  "guidance": [],
+  "write_ops": {
+    "auto_call_allowed": false,
+    "forbidden_tools": [
+      "delivery-create-address",
+      "create-order",
+      "mall-create-order",
+      "party-order-create",
+      "auto-bind-coupons",
+      "draw-lottery"
+    ],
+    "note": "创建地址与下单均为写操作，本项目一律不自动执行。"
+  },
+  "chosen_address": {
+    "index": 1,
+    "address_id": "10363659****（已脱敏）",
+    "contact_name": "任*（已脱敏）",
+    "full_address": "浙江省杭州市上城区（完整地址已脱敏）",
+    "phone": "130****0636"
+  },
+  "stores": [
+    {
+      "store_code": "3330329",
+      "be_code": "333032902",
+      "name": "麦当劳杭州普大福地餐厅",
+      "address": null,
+      "reservation": true,
+      "be_code_known": true
+    },
+    {
+      "store_code": "3330498",
+      "be_code": "333049802",
+      "name": "麦当劳杭州上城区东方电子商务园餐厅",
+      "address": null,
+      "reservation": true,
+      "be_code_known": true
+    },
+    {
+      "store_code": "3330321",
+      "be_code": "333032102",
+      "name": "麦当劳杭州七章公园餐厅",
+      "address": null,
+      "reservation": true,
+      "be_code_known": true
+    }
+  ],
+  "_privacy": "地址与 addressId 已脱敏（原始返回含完整信息，不进公开仓库）",
+  "_is_real_data": true
+}

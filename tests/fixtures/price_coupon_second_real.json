@@ -1,0 +1,33 @@
+{
+  "_captured": "2026-10-22 11:51:26 实跑 calculate-price（beType=2 麦乐送，带 19.9元王牌炸鸡任选2 券）。",
+  "_traceId": "9c1d616d9b7bbb3adc4c1c7c6b5e822d",
+  "_query": {
+    "storeCode": "3330329",
+    "beCode": "333032902",
+    "orderType": 2,
+    "beType": 2,
+    "items": [{"productCode": "9900016534", "quantity": 1, "couponId": "已脱敏", "couponCode": "已脱敏"}]
+  },
+  "_conclusion": "券生效：商品原价 30.00 → 券价 19.90，官方 discount=1010 分（10.10 元），应付 27.80 元（含配送费 6.00 + 打包费 1.90）。",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 11:51:26",
+  "traceId": "9c1d616d9b7bbb3adc4c1c7c6b5e822d",
+  "data": {
+    "productOriginalPrice": 3000,
+    "productPrice": 1990,
+    "deliveryOriginalPrice": 600,
+    "deliveryPrice": 600,
+    "packingOriginalPrice": 190,
+    "packingPrice": 190,
+    "originalPrice": 3790,
+    "discount": 1010,
+    "price": 2780,
+    "productList": [
+      {"productCode": "9900016534", "productName": "王牌炸鸡任选2", "quantity": 1, "originalSubtotal": 3000, "subtotal": 1990},
+      {"productCode": "920174", "productName": "打包服务费", "quantity": 19, "originalSubtotal": 190, "subtotal": 0}
+    ]
+  }
+}

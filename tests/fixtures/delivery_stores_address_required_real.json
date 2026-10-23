@@ -1,0 +1,15 @@
+{
+  "_note": "delivery-query-stores 在 addressId 为空时的真实报错留痕。说明 addressId 必须由 delivery-query-addresses 真实返回，不得由本 Skill 编造。",
+  "_tool": "delivery-query-stores",
+  "_params": {
+    "beType": 2,
+    "addressId": ""
+  },
+  "_called_at": "2026-10-22 10:08:15",
+  "_trace_id": "8b8a341d3b57722775eafcf9ab502699",
+  "success": false,
+  "code": 400,
+  "message": "addressId地址ID不能为空",
+  "datetime": "2026-10-22 10:08:15",
+  "traceId": "8b8a341d3b57722775eafcf9ab502699"
+}

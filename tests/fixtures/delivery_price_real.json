@@ -1,0 +1,45 @@
+{
+  "_fixture_note": "真实 MCP calculate-price 返回（麦乐送外送 beType=2）。这是本项目首次取得**配送费与打包费的真实数据**，金额单位：分。",
+  "_source": "mcd-mcp calculate-price",
+  "_query": {
+    "storeCode": "3330329",
+    "beCode": "333032902",
+    "orderType": 2,
+    "beType": 2,
+    "items": [
+      { "productCode": "901100", "quantity": 1 },
+      { "productCode": "501205", "quantity": 1 }
+    ]
+  },
+  "_captured_at": "2026-10-22 10:55:20",
+  "_traceId": "0f53f46475392aacb0ddbc4cb6edd3a4",
+  "_is_real_data": true,
+  "_breakdown": {
+    "餐品小计": "44.00 元",
+    "配送费": "6.00 元",
+    "打包费": "1.90 元",
+    "应付合计": "51.90 元"
+  },
+  "_compare": "同一组合在到店自取（beType=1）下官方核价为 41.00 元；外送 51.90 元，高出 10.90 元。",
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 10:55:20",
+  "traceId": "0f53f46475392aacb0ddbc4cb6edd3a4",
+  "data": {
+    "productOriginalPrice": 4400,
+    "productPrice": 4400,
+    "deliveryOriginalPrice": 600,
+    "deliveryPrice": 600,
+    "packingOriginalPrice": 190,
+    "packingPrice": 190,
+    "originalPrice": 5190,
+    "discount": 0,
+    "price": 5190,
+    "productList": [
+      { "productCode": "901100", "productName": "巨无霸", "quantity": 1, "originalSubtotal": 2850, "subtotal": 2850 },
+      { "productCode": "501205", "productName": "中薯条", "quantity": 1, "originalSubtotal": 1550, "subtotal": 1550 },
+      { "productCode": "920174", "productName": "打包服务费", "quantity": 19, "originalSubtotal": 190, "subtotal": 0 }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_captured": "2026-10-22 11:51:15 实跑 calculate-price（beType=2 麦乐送，不带券）——**对照实验**。",
+  "_traceId": "f79f5af166c5865373e6fbcf6c1f1fe6",
+  "_purpose": "用于排除核价接口本身故障：同一门店同一外送场景，901100 巨无霸不带券返回正常（productPrice=2850），证明 1440 不带券返回 0 是**商品侧**现象，而非接口故障。",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 11:51:15",
+  "traceId": "f79f5af166c5865373e6fbcf6c1f1fe6",
+  "data": {
+    "productOriginalPrice": 2850,
+    "productPrice": 2850,
+    "deliveryOriginalPrice": 600,
+    "deliveryPrice": 600,
+    "packingOriginalPrice": 110,
+    "packingPrice": 110,
+    "originalPrice": 3560,
+    "discount": 0,
+    "price": 3560,
+    "productList": [
+      {"productCode": "901100", "productName": "巨无霸", "quantity": 1, "originalSubtotal": 2850, "subtotal": 2850},
+      {"productCode": "920174", "productName": "打包服务费", "quantity": 11, "originalSubtotal": 110, "subtotal": 0}
+    ]
+  }
+}

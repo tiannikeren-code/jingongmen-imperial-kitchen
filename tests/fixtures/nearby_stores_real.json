@@ -1,0 +1,74 @@
+{
+  "_fixture_note": "真实 MCP query-nearby-stores 返回（beType=1, searchType=2, city=杭州, keyword=上城区）。官方返回自带 distance（米），且已由近及远排序。",
+  "_source": "mcd-mcp query-nearby-stores",
+  "_captured_at": "2026-10-22 18:30:19",
+  "_traceId": "f4aa4001fda8516b815ba5171d10691b",
+  "_is_real_data": true,
+  "_privacy": "门店为公开商户信息，不含任何个人数据。",
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 18:30:19",
+  "data": [
+    {
+      "storeCode": "3330682",
+      "storeName": "麦当劳杭州平安悦坊餐厅",
+      "address": "民心路280号",
+      "distance": 245,
+      "businessStatus": true,
+      "businessStartTime": "07:00",
+      "businessEndTime": "23:00",
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "reservation": true
+    },
+    {
+      "storeCode": "3330392",
+      "storeName": "麦当劳杭州江河时代餐厅",
+      "address": "三新路37号",
+      "distance": 1181,
+      "businessStatus": true,
+      "businessStartTime": "07:00",
+      "businessEndTime": "23:00",
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "reservation": true
+    },
+    {
+      "storeCode": "3330141",
+      "storeName": "麦当劳杭州钱江新城迪凯银座餐厅",
+      "address": "解放东路29号",
+      "distance": 1191,
+      "businessStatus": true,
+      "businessStartTime": "07:00",
+      "businessEndTime": "23:00",
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "reservation": true
+    },
+    {
+      "storeCode": "3330298",
+      "storeName": "麦当劳杭州江干区(高德置地广场)餐厅",
+      "address": "高德置地中心3幢101室1层L125单元麦当劳餐厅",
+      "distance": 1270,
+      "businessStatus": true,
+      "businessStartTime": "07:00",
+      "businessEndTime": "22:00",
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "reservation": true
+    },
+    {
+      "storeCode": "3330206",
+      "storeName": "麦当劳杭州大厦501城市广场餐厅",
+      "address": "四季青街道西子国际中心一层101室-26",
+      "distance": 1447,
+      "businessStatus": true,
+      "businessStartTime": "00:00",
+      "businessEndTime": "23:59",
+      "longitude": 0.0,
+      "latitude": 0.0,
+      "reservation": true
+    }
+  ]
+}

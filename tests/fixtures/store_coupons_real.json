@@ -1,0 +1,39 @@
+{
+  "_captured": "2026-10-22 11:50:06 实跑 query-store-coupons（beType=2 麦乐送）。这是本项目**首次**拿到非空的门店券返回——领券前该接口一直返回空列表。",
+  "_traceId": "be45481dcf573b55055231e080be0106",
+  "_query": {
+    "storeCode": "3330329",
+    "beCode": "333032902",
+    "orderType": 2,
+    "beType": 2
+  },
+  "_privacy": "couponId 与 couponCode 是陛下的真实券资产，泄露即可能被他人盗用，故一律掩码；productCode / productName / 有效期为公开商品信息，原样保留。",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 11:50:06",
+  "traceId": "be45481dcf573b55055231e080be0106",
+  "data": [
+    {
+      "title": "19.9元王牌炸鸡任选2",
+      "couponId": "44928824****（已脱敏）",
+      "couponCode": "MCD60F01B2****（已脱敏）",
+      "tradeDateTime": "2026-10-19 10:30:00-2026-10-23 23:59:59",
+      "products": [
+        {"productCode": "9900016534", "productName": "王牌炸鸡任选2"}
+      ],
+      "promotionId": "112479004"
+    },
+    {
+      "title": "11.9元麦辣鸡腿堡",
+      "couponId": "A255280326****（已脱敏）",
+      "couponCode": "MCD6409Y00****（已脱敏）",
+      "tradeDateTime": "2026-10-19 10:30:00-2026-10-23 23:59:59",
+      "products": [
+        {"productCode": "1440", "productName": "麦辣鸡腿汉堡"}
+      ],
+      "promotionId": "112479003"
+    }
+  ]
+}

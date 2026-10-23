@@ -1,0 +1,24 @@
+{
+  "_fixture_note": "真实 MCP delivery-query-addresses 返回（用户在麦当劳账户中添加配送地址之后）。手机号在官方返回中已脱敏（130****0636），本 fixture 不含完整号码。",
+  "_source": "mcd-mcp delivery-query-addresses",
+  "_captured_at": "2026-10-22 10:54:27",
+  "_traceId": "92864acc3909b19aab5eaf7a885eb855",
+  "_is_real_data": true,
+  "_privacy": "⚠️ 本 fixture 已脱敏：完整配送地址与 addressId 均做了掩码处理。真实返回包含完整门牌号与完整 addressId，因该仓库将公开发布，故不落盘、不上传。测试只依赖字段结构，不依赖真实值。",
+  "_desensitized": ["fullAddress", "addressId"],
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 10:54:27",
+  "traceId": "92864acc3909b19aab5eaf7a885eb855",
+  "data": {
+    "addresses": [
+      {
+        "addressId": "10363659****（已脱敏）",
+        "contactName": "任*（已脱敏）",
+        "phone": "130****0636",
+        "fullAddress": "浙江省杭州市上城区（完整地址已脱敏）"
+      }
+    ]
+  }
+}

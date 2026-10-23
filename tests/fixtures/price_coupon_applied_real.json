@@ -1,0 +1,33 @@
+{
+  "_captured": "2026-10-22 11:50:27 实跑 calculate-price（beType=2 麦乐送，带 11.9元麦辣鸡腿堡券）。",
+  "_traceId": "bcb7519b0270f98ddafe007b2501fef6",
+  "_query": {
+    "storeCode": "3330329",
+    "beCode": "333032902",
+    "orderType": 2,
+    "beType": 2,
+    "items": [{"productCode": "1440", "quantity": 1, "couponId": "已脱敏", "couponCode": "已脱敏"}]
+  },
+  "_conclusion": "券生效：商品原价 25.50 → 券价 11.90，官方 discount=1360 分（13.60 元），应付 19.00 元（含配送费 6.00 + 打包费 1.10）。",
+  "_is_real_data": true,
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-22 11:50:27",
+  "traceId": "bcb7519b0270f98ddafe007b2501fef6",
+  "data": {
+    "productOriginalPrice": 2550,
+    "productPrice": 1190,
+    "deliveryOriginalPrice": 600,
+    "deliveryPrice": 600,
+    "packingOriginalPrice": 110,
+    "packingPrice": 110,
+    "originalPrice": 3260,
+    "discount": 1360,
+    "price": 1900,
+    "productList": [
+      {"productCode": "1440", "productName": "麦辣鸡腿汉堡", "quantity": 1, "originalSubtotal": 2550, "subtotal": 1190},
+      {"productCode": "920174", "productName": "打包服务费", "quantity": 11, "originalSubtotal": 110, "subtotal": 0}
+    ]
+  }
+}
