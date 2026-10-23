@@ -5,6 +5,8 @@
 
 为「麦当劳程序员创意开发大赛」参赛作品。本 Skill **不自动下单、不自动付款**。
 
+<img width="795" height="829" alt="ScreenShot_2026-10-23_203626_071" src="https://github.com/user-attachments/assets/858f7601-5645-4915-9606-a73e0d96a181" />
+
 ---
 
 ## 一、它解决什么问题
